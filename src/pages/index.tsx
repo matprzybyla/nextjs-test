@@ -17,7 +17,7 @@ export default function Home() {
       <div>
         <Header></Header>
         <div>home</div>
-        <iframe src="https://rsmateusz.ngrok.io/bookingswidget" height="1000" width="360" title="booking widget"></iframe>
+        <iframe src="https://rsmateusz.ngrok.io/bookingswidget" height="1000" width="360" title="booking widget" style={{overflow:"hidden"}}></iframe>
         <Footer></Footer>
       </div>
     </>
