@@ -18,7 +18,7 @@ export default function Home() {
         <Header></Header>
         <div>home</div>
         <div style={{WebkitOverflowScrolling: "touch", overflow: "scroll", height: "500px", width:"320px", padding: 5, background: "red"}}>
-          <iframe src="https://rsmateusz.ngrok.io/bookingswidget" title="booking widget"></iframe>
+          <iframe src="https://rsmateusz.ngrok.io/bookingswidget" title="booking widget" scrolling='yes' height={500}></iframe>
         </div>
 
           {/* <iframe src="https://rsmateusz.ngrok.io/bookingswidget" title="booking widget" style={{width: "320px", height: "500px", overflow: "scroll"}}></iframe> */}
