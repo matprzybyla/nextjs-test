@@ -21,7 +21,7 @@ export default function Home() {
           <iframe src="https://rsmateusz.ngrok.io/bookingswidget" title="booking widget" scrolling='yes' height={500}></iframe>
         </div> */}
 
-          <iframe src="https://rsmateusz.ngrok.io/bookingswidget" title="booking widget" style={{width: "320px", height: "500px", overflow: "scroll"}}></iframe>
+          <iframe src="https://rsmateusz.ngrok.io/bookingswidget" title="booking widget" style={{width: "320px", height: "90dvh"}}></iframe>
         <Footer></Footer>
       </div>
     </>
